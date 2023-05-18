@@ -1,0 +1,219 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.MainContainer {
+    margin: 10px 80px;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MidNav > span {
+    margin: 0px 20px 0px 20px;
+}
+
+.MidNav > span:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.RightNav {
+    display: flex;
+}
+
+.RightNav > button {
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    border: none;
+}
+
+#signup {
+    background-color: white;
+}
+
+#sigin {
+    background-color: black;
+    color: white;
+}
+
+.Section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSection {
+    margin-top: 50px;
+}
+
+.HeadDiv {
+    font-size: 4rem;
+    line-height: 110%;
+    font-weight: bold;
+}
+
+.ParaDiv {
+    line-height: 160%;
+    margin-top: 10px;
+}
+
+.buttonDiv {
+    margin: 30px 0px;
+}
+
+.buttonDiv > button{
+    padding: 15px 25px;
+    border: none;
+    font-weight: bold;
+}
+
+#freeTrial {
+    background-color: black;
+    color: white;
+}
+
+#More {
+    background-color: white;
+}
+
+.ScoreDiv {
+    display: flex;
+}
+
+.leftS {
+    margin-right: 100px;
+}
+
+.leftS > span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.RightS > span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.leftS > p {
+    font-size: 0.8rem;
+    margin-top: 0px;
+}
+
+.RightS > p {
+    margin-top: 0px;
+    font-size: 0.8rem;
+}
+
+
+.ArticleContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 60px 50px;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+#box-1, #box-2, #box-3 {
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    padding: 24px;
+    border: 1px solid black;
+}
+
+
+.arrow {
+    width: 20px;
+    height: 20px;
+}
+
+.subBox > h4 {
+    font-size: 1.4rem;
+}
+
+.subBox > p {
+    font-weight: lighter;
+}
+
+.LearnMore {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+
+.MainHeading > p {
+    font-size: 0.95rem;
+    color: rgb(191, 191, 191);
+}
+
+.MainHeading > h3 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.icons > img {
+    filter: invert(100%);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    width: 24px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    height: 24px;
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.inp {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.inp > button {
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.inp > button:hover {
+    background-color: white;
+}
+
+input::placeholder {
+    color: black;
+}
